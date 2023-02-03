@@ -1,0 +1,71 @@
+body {
+  color: #fff !important;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; }
+
+body {
+  background: url("../../images/background.png"); }
+
+.content {
+  height: 100vh;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: center; }
+  .content .welcome h1 {
+    font-weight: bold;
+    font-size: 4em; }
+  .content .login {
+    width: 100%;
+    height: auto;
+    padding: 30px 40px 40px 40px;
+    background: rgba(125, 44, 255, 0.473);
+    text-align: center;
+    border-radius: 50px;
+    backdrop-filter: blur(5px); }
+    .content .login h3 {
+      font-weight: bold;
+      color: white;
+      margin: 0 0 10px 0; }
+    .content .login p {
+      margin: 10px 0 0 0; }
+    .content .login input {
+      width: 100%;
+      padding: 7px 15px;
+      margin: 0 0 15px 0;
+      color: white;
+      background-color: transparent;
+      border-bottom: 1px solid white;
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      outline: 0; }
+      .content .login input:focus {
+        border-color: #853aff; }
+      .content .login input::placeholder {
+        color: #cfcfcf; }
+    .content .login img {
+      width: 120px;
+      height: 120px;
+      margin: 0 0 15px 0;
+      border-radius: 50%; }
+    .content .login button {
+      width: 45%;
+      border-radius: 50px;
+      margin: 5px 2.5%;
+      padding: 15px 0;
+      border: 0;
+      font-size: .9em;
+      font-weight: bold;
+      color: #7D2CFF; }
+    .content .login .icon {
+      position: absolute;
+      margin-top: 6px;
+      margin-left: -20px;
+      color: white;
+      cursor: pointer; }

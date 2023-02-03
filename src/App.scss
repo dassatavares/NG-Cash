@@ -1,0 +1,25 @@
+// Cores 
+$color1: #61cb33;
+$color1_hover: #6add38;
+
+$color2: #7D2CFF;
+$color2_hover: #853aff;
+$color2_opacity: rgba(125, 44, 255, 0.473);
+
+$color3: #e82efe;
+$color3_hover: #ec3eff;
+
+
+body {
+  color: #fff !important;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
